@@ -1,0 +1,2 @@
+/*rexx*/
+say 'hello'
