@@ -1,0 +1,6 @@
+ //TSO007 JOB NOTIFY=&SYSUID                          
+ //STEP1 EXEC PGM=IKJEFT1A,PARM=P32                   
+ //SYSEXEC DD DSN=TSO007.TSO007.DIV.REXX,DISP=SHR     
+ //SYSPRINT DD SYSOUT=*                               
+ //SYSTSPRT DD SYSOUT=*                               
+ //SYSTSIN DD *                                       
